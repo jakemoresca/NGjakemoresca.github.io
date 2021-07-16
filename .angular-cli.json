@@ -1,5 +1,5 @@
 {
   "apps": [{
-    "styles": ["bootstrap/dist/css/bootstrap.css"]
+    "styles": []
   }]
 }
