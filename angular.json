@@ -24,7 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/resume.scss"
+              "src/scss/resume.scss"
             ],
             "scripts": [
               "bootstrap/js/dist/bootstrap.min.js"
