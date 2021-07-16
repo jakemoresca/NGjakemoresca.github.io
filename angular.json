@@ -27,7 +27,7 @@
               "src/scss/resume.scss"
             ],
             "scripts": [
-              "bootstrap/js/dist/bootstrap.min.js"
+              "~/bootstrap/js/dist/bootstrap.min.js"
             ]
           },
           "configurations": {
