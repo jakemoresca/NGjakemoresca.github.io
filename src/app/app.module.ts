@@ -7,18 +7,23 @@ import { HelloComponent } from './hello.component';
 import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot([{ path: '', component: AboutComponent }])
+    RouterModule.forRoot([
+      { path: '', component: AboutComponent },
+      { path: '/experience', component: ExperienceComponent }
+    ])
   ],
   declarations: [
     AppComponent,
     HelloComponent,
     AboutComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    ExperienceComponent
   ],
   bootstrap: [AppComponent]
 })
