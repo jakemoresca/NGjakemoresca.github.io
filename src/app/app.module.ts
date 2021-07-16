@@ -15,7 +15,7 @@ import { ExperienceComponent } from './experience/experience.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: AboutComponent },
-      { path: '/experience', component: ExperienceComponent }
+      { path: 'experience', component: ExperienceComponent }
     ])
   ],
   declarations: [
