@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 0.875em;
+}
