@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  formwayProject = "../../assets/img/formway-1.png"
+  formwayProject = "assets/img/formway-1.png"
   constructor() { }
 
   ngOnInit() {
