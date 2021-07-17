@@ -12,7 +12,7 @@ section.resume-section {
 }
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: calc(100vh - 56px);
     .resume-item {
       .resume-date {
         min-width: 18rem;
